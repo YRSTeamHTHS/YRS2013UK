@@ -21,15 +21,18 @@ body {
     /*background-color:#ebebeb;*/
     /*font-family: NewNeue;*/
     overflow: hidden;
-    background-image: url("../img/home-background.png");
-    background-size: 1500px 1000px;
-    background-position: 0 -100px;
 
     -moz-user-select: none;
     -khtml-user-select: none; 	/*disable highlighting*/
     -webkit-user-select: none;
     user-select: none;
     text-shadow:none;
+}
+
+.home {
+    background-image: url("../img/home-background.png");
+    background-size: 1500px 1000px;
+    background-position: 0 -100px;
 }
 
 /* ----------NAVBAR ELEMENTS---------- */
@@ -155,6 +158,8 @@ textarea, input[type="text"] {
 
 }
 
+
+/*---------- MAP PAGE ---------- */
 .full {
     height:100%;
 }
@@ -211,7 +216,7 @@ textarea, input[type="text"] {
 
 .side-wrapper {
     position: absolute;
-    top: 34px;
+    top: 60px;
     bottom: 0;
     width: 100%;
 }
@@ -228,6 +233,31 @@ textarea, input[type="text"] {
 #feed {
     display: none;
 }
+
+
+/*dumb shit for fitting button group*/
+.map-wrapper .btn-group {
+    margin-right:-1px;
+
+}
+/*dumb shit for fitting button group again*/
+#sidebar {
+    padding-left:14px;
+
+}
+
+.sidebar-btn {
+    border:none;
+    line-height:20px;
+    font-size:16px;
+    padding:20px;
+    color:#ffffff;
+    background-color:#474949;
+    border:none;
+    border-radius: 0px;
+
+}
+
 #feed-btn {
     width:50%;
 }
