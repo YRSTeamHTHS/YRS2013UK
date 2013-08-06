@@ -160,5 +160,77 @@ textarea, input[type="text"] {
 }
 
 #sidebar {
-    box-shadow: -3px 0px 12px 2px silver;
+    box-shadow: -3px 5px 12px 2px silver;
+}
+
+.map-wrapper {
+    position: absolute; bottom:0; left:0; top:70px; width:100%;
+}
+
+.departure {
+    font-size:18px;
+    color:black;
+    background:url(../img/departure.png);
+    background-size:40px 40px;
+    background-repeat:no-repeat;
+    padding-left:40px;
+}
+
+.arrival {
+    font-size:18px;
+    color:black;
+    background:url(../img/arrival.png);
+    background-size:40px 40px;
+    background-repeat:no-repeat;
+    padding-left:40px;
+}
+
+.dist-time{
+    color:rgb(158, 158, 158);
+    font-size:12px;
+    text-align:right;
+}
+
+.dist-time-lg {
+    color:rgb(98, 98, 98);
+    font-size:16px;
+    text-align:right;
+}
+
+.dist-time-total {
+    color:rgb(98, 98, 98);
+    font-size:20px;
+    text-align:left;
+    background:url(../img/clock.png);
+    background-size: 30px 30px;
+    background-repeat:no-repeat;
+    padding-left:33px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.side-wrapper {
+    position: absolute;
+    top: 34px;
+    bottom: 0;
+    width: 100%;
+}
+
+.side-content {
+    overflow: auto;
+    max-height:100%;
+    padding-left:20px;
+    padding-right:10px;
+}
+#directions {
+    display: block;
+}
+#feed {
+    display: none;
+}
+#feed-btn {
+    width:50%;
+}
+#dir-btn {
+    width:50%;
 }
