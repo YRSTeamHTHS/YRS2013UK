@@ -10,7 +10,9 @@ html {
 
 body {
     padding-top:70px;
+    background-color:#ebebeb;
     /*font-family: NewNeue;*/
+    overflow: hidden;
 
     -moz-user-select: none;
     -khtml-user-select: none; 	/*disable highlighting*/
@@ -30,6 +32,7 @@ body {
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
     background-color:transparent;
     background-image: url("../img/mooning.png");
+    border-radius: 0 0 6px 6px;
 
 }
 
@@ -104,6 +107,21 @@ body {
 
 .nav-tabs > li > a:hover {
     background-color:rgba(0,0,0,0.1);
+}
+
+.tabcontent {
+    padding:20px;
+    background-color: #aeaeae;
+    border-radius: 0 0 6px 6px;
+    margin-top: -15px;
+}
+
+textarea, input[type="text"] {
+    border:none;
+    padding:20px;
+    line-height:20px;
+    font-size:16px;
+
 }
 
 .full {
