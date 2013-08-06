@@ -21,6 +21,7 @@ body {
     /*background-color:#ebebeb;*/
     /*font-family: NewNeue;*/
     overflow: hidden;
+    color:#ffffff;
 
     -moz-user-select: none;
     -khtml-user-select: none; 	/*disable highlighting*/
@@ -63,7 +64,7 @@ body {
 
 .navbar .nav-collapse .nav > li > a:hover,
 .navbar .nav-collapse .nav > li > a:focus {
-    background-color:rgba(0,0,0,0.1);
+    background-color:rgba(0,0,0,0.2);
 
 }
 
@@ -79,6 +80,7 @@ body {
     border-radius: 6px 6px 0 0;
     margin-bottom:10px;
     padding-left:0;
+    padding-right:0;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 
 }
@@ -86,6 +88,10 @@ body {
 .nav-tabs {
     border:0;
     height:60px;
+}
+
+.nav-tabs > li {
+    width:50%;
 }
 
 .nav-tabs > li > a,
@@ -106,7 +112,7 @@ body {
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover {
-    background-color: #141c2a;
+    background-color: #aeaeae
 
 }
 
@@ -119,21 +125,28 @@ body {
 }
 
 .nav-tabs > li > a:hover {
-    background-color:rgba(0,0,0,0.1);
+    background-color:rgba(0,0,0,0.2);
 }
 
 .tabcontent {
     padding:20px;
     background-color: #aeaeae;
     border-radius: 0 0 6px 6px;
-    margin-top: -10px;
+    margin-top: -15px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+
+    -webkit-transition: height 0.2s linear;
+    -moz-transition: height 0.2s linear;
+    -ms-transition: height 0.2s linear;
+    -o-transition: height 0.2s linear;
+    transition: height 0.2s linear;
 }
 
+
 .btn.search {
-    height:40px;
-    line-height:20px;
-    font-size:20px;
+    height:60px;
+    line-height:25px;
+    font-size:25px;
     color:#ffffff;
     background-color: #34495e;
     font-family:FontAwesome;
@@ -149,13 +162,57 @@ body {
     background-color: rgba(52, 73, 94, 0.75);
 }
 
+#directions-start {
+    color:#2ecc71;
+    border-radius: 6px 6px 0px 0px;
+}
+#directions-end {
+    color:#e74c3c;
+    border-radius: 0px 0px 6px 6px;
+}
+
+
+.nav-icon {
+    font-family:FontAwesome;
+    font-size:19px;
+    text-align:center;
+    margin-right:17px;
+}
+
 textarea, input[type="text"] {
     border:none;
-    padding:20px;
+    padding:30px;
     line-height:20px;
     font-size:16px;
-    border-radius: 6px 0 0 6px;
+    border-radius: 6px;
 
+    -webkit-box-shadow:none;
+    box-shadow:none;
+
+}
+
+.btn {
+    border:none;
+    background-color:#34495e;
+    color:#ffffff;
+    background-image:none;
+    border-radius:6px
+    box-shadow:none;
+    text-shadow:none;
+    padding: 20px;
+    font-size:16px;
+    width:100%;
+
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -ms-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    background-color:#2c3e50;
+    box-shadow:none;
 }
 
 
