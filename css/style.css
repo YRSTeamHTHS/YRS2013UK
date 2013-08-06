@@ -4,10 +4,6 @@
     src: url("../font/HelveticaNeueLight.ttf");
 }
 
-html {
-    height:100%;
-}
-
 body {
     padding-top:70px;
     background-color:#ebebeb;
@@ -19,8 +15,6 @@ body {
     -webkit-user-select: none;
     user-select: none;
     text-shadow:none;
-
-    height:100%;
 }
 
 /* ----------NAVBAR ELEMENTS---------- */
@@ -126,4 +120,8 @@ textarea, input[type="text"] {
 
 .full {
     height:100%;
+}
+
+#sidebar {
+    box-shadow: -3px 0px 12px 2px silver;
 }
