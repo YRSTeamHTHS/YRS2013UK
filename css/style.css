@@ -4,6 +4,10 @@
     src: url("../font/HelveticaNeueLight.ttf");
 }
 
+html {
+    height:100%;
+}
+
 body {
     padding-top:70px;
     /*font-family: NewNeue;*/
@@ -13,6 +17,8 @@ body {
     -webkit-user-select: none;
     user-select: none;
     text-shadow:none;
+
+    height:100%;
 }
 
 /* ----------NAVBAR ELEMENTS---------- */
@@ -46,6 +52,15 @@ body {
 
 }
 
+.nav-tabs {
+    border:0;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li.active > a {
+    border:0;
+
+}
 .full {
     height:100%;
 }
