@@ -1,10 +1,10 @@
-$("#feed-btn").click(function() {
-    alert(2);
-    /*$("#directions").hide();
-    $("#feed").show();*/
-});
-$("#dir-btn").click(function() {
-    alert(1);
-    /*$("#feed").hide();
-    $("#directions").show();*/
+$(document).ready(function() {
+    $("#feed-btn").click(function() {
+        $("#directions").fadeOut();
+         $("#feed").fadeIn();
+    });
+    $("#dir-btn").click(function() {
+        $("#feed").fadeOut();
+        $("#directions").fadeIn();
+    });
 });
