@@ -5,8 +5,8 @@
 }
 
 body {
-    padding-top:100px;
-    font-family: NewNeue;
+    padding-top:70px;
+    /*font-family: NewNeue;*/
 
     -moz-user-select: none;
     -khtml-user-select: none; 	/*disable highlighting*/
@@ -23,6 +23,7 @@ body {
     height:70px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
     background-color: #e67e22;
+    margin-bottom:0px;
 
 }
 
@@ -43,5 +44,19 @@ body {
 .navbar .nav-collapse .nav > li > a:hover,
 .navbar .nav-collapse .nav > li > a:focus {
     background-color:rgba(0,0,0,0.1);
+
+}
+
+
+/* ---------- HOME PAGE ---------- */
+
+.nav-tabs {
+    border:none;
+
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li.active > a{
+    border:none;
 
 }
