@@ -71,6 +71,8 @@ body {
 /*padding from the top of screen from navbar*/
 .home-nav {
     margin-top:50px;
+    padding-left:15px;
+    padding-right:15px;
 
 }
 
@@ -350,6 +352,10 @@ textarea, input[type="text"] {
         float: none;
         white-space: normal;
     }
+    .home-nav {
+        padding-left:0px;
+        padding-right:0px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -360,5 +366,9 @@ textarea, input[type="text"] {
         display: inline-block;
         float: none;
         white-space: normal;
+    }
+    .home-nav {
+        padding-left:0px;
+        padding-right:0px;
     }
 }
