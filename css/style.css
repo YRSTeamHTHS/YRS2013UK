@@ -1,5 +1,5 @@
 body {
-    padding-top:50px;
+    padding-top:100px;
 
     -moz-user-select: none;
     -khtml-user-select: none; 	/*disable highlighting*/
@@ -8,22 +8,23 @@ body {
     text-shadow:none;
 }
 
+/* ----------NAVBAR ELEMENTS---------- */
+
 .navbar,
 .navbar-inverse,
 .navbar-fixed-top {
+    height:80px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
     background-color: #e67e22;
 
 }
 
-
-/*elements of the navbar*/
 .navbar .nav-collapse .nav > li > a {
 
     padding: 30px 35px;
     color:#ffffff;
     line-height:20px;
-    font-size:20px;
+    font-size:16px;
 
     -webkit-transition: background 0.2s linear;
     -moz-transition: background 0.2s linear;
