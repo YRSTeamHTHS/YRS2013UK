@@ -284,6 +284,7 @@ textarea, input[type="text"] {
     max-height:100%;
     padding-left:20px;
     padding-right:10px;
+    color: black;
 }
 #directions {
     display: block;
@@ -335,7 +336,7 @@ textarea, input[type="text"] {
     cursor: pointer;
     border-bottom-left-radius: 6px;
 }
-#expand-arrow:hover {
+#shrink-arrow:hover {
     background-color: #3a3c3c;
 }
 #map-content {
